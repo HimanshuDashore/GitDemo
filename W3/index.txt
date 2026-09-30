@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index Page</title>
+</head>
+<body>
+
+<h1 title="Google">My Google Link</h1>
+<p1>HTML links are defined with the a tag<p1>
+<img src="devi.jpg" alt="devi">
+<a href="https://www.google.com"> This is the link</a>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<DOCTYPE html>
+<html lang=en>
+<head>
+<title>hi</title>
+</head>
+<body>
+<h1>Color</h1>
+<p style="text-color:blue;">This is red<del>blue<ins>color</p>
+</body>
+</html>

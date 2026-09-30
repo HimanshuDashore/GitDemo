@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h2>Forms in HTML</h2>
+    <form action="">
+        <label for="fName">Your Name:</label>
+         <input id="fName" type="text" minlength="5" maxlength="12" required placeholder="pls enter your name" value="" name="fName" >
+         <label for="mName">Middle Name:</label>
+        <input id="mName" type="text" value="RK" >
+
+        <label for="lName">Last Name:</label>
+        <input id="lName" type="text" disabled >
+
+        <br><br>
+        <label for="">Age:</label>
+        <input type="number">
+        
+        <br><br>
+        <label for="">Email:</label>
+        <input type="email">
+
+        <br><br>
+        <label for="">Date of Joining:</label>
+        <input type="date">
+
+        <br><br>
+        <label for="">Password:</label>
+        <input type="password">
+
+        <p>Enter your Shirt Size</p>
+        <input type="radio" name="ShirtSize" id="Small" value="Small" checked>
+        <label for="Small">Small</label>
+        <input type="radio" name="ShirtSize" id="Medium" value="Medium">
+        <label for="Medium">Medium</label>
+        <input type="radio" name="ShirtSize" id="Large" value="Large">
+        <label for="Large">Large</label>
+        
+        <p>Please choose the languages knows</p>
+        <input type="checkbox" name="lang" id="Hindi" value="Hindi">
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" name="lang" id="English" value="English">
+        <label for="English">English</label>
+        <input type="checkbox" name="lang" id="Sanskrit" value="Sanskrit">
+        <label for="Sanskrit">Sanskrit</label>
+
+        <br><br>
+        <label for="clr">Please select the color of your shirt</label>
+        <input id="clr" type="color">
+        
+        <br><br>
+        <label for="paymentOption">Please select the Payment Option</label>
+        <select name="payment" id="paymentOption">
+        <option value=""></option>
+        <option value="gPay">gPay</option>
+        <option value="Phonepe">Phonepe</option>
+        <option value="COD">COD</option>
+        </select>
+
+        <br><br>
+        <label for="cmt">Please provie your Feedback.</label>
+        <textarea name="cmts" id="cmt" rows="10" cols="25" placeholder="pls comments"></textarea>
+
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+
+    </form>
+</body>
+</html>

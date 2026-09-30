@@ -1,0 +1,43 @@
+Git >> Version Control
+
+    v1
+    v2
+    v3
+    new v4
+
+
+>> It is dirtibuted (on Cloud)
+>> Collaboration
+>> Tracking Changes
+>> Recovery
+
+https://git-scm.com/install/windows
+
+GitHub ** We are using  
+BitBucket
+GitLabs
+Gitpad
+
+>> For 1st time need to configure github in our system
+git config --global user.name "HimanshuDashore"
+git confgi --global user.email :anshroyal16@gmail.com"
+
+git config --global color.ui auto
+ 
+
+Mandatory Commands:
+>> git init
+>> git remote add origin https://github.com/HimanshuDashore/GitDemo.git
+
+
+git pull origin main
+
+
+git status
+
+gita add GitandGitHubCommands.txt (for single file)
+git add . (For all files)
+git status
+git commit -m "Commit Message"
+git push
+

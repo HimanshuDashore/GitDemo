@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<h1></h1>
+<p></p>
+<p style="color:red;"
+<br> For line break in paragraph
+<a href="https://www.google.com:>link</a>
+<img src="devi.jpg" alt="devi" width="142" height="142">
+</body>
+</html>
